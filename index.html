@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treasure Hunt Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h2>Treasure Hunt Game</h2>
+      <p>Click a location to explore! You have 5 chances.</p>
+      <div id="options"></div>
+      <div id="locations"></div>
+      <div id="output"></div>
+      <div id="score-table">
+        <h3>Score Table</h3>
+        <p>Chances Left: <span id="chances">5</span></p>
+        <p>Total Gold: <span id="total-gold">0</span></p>
+      </div>
+      <button id="reset-button">Reset Game</button>
+      <div id="popup" class="popup"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
